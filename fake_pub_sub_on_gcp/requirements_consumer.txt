@@ -1,0 +1,4 @@
+google-cloud-pubsub
+pandas
+google-cloud-aiplatform
+pyarrow
