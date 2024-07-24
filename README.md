@@ -57,7 +57,7 @@ A scheduled query transforms the data from the raw table to the curated table. T
 Using Google Cloud Dataproc, the data from the curated table is processed to create aggregation tables. These tables contain summarized data that can be used for various analytical purposes.
 
 ### Visualization
-[Car_accidents_usa_2016_to_2023](https://lookerstudio.google.com/reporting/f94c8c40-0bc8-455b-a626-ece2d334b964)
+## [Car_accidents_usa_2016_to_2023](https://lookerstudio.google.com/reporting/f94c8c40-0bc8-455b-a626-ece2d334b964)
 
 ![Dashboard](images/car_accidents_dashboard.gif)
 
