@@ -66,21 +66,13 @@ The final step involves visualizing the data using Looker. The visualizations pr
 ## 📝 Scripts and Functions
 
 ## Helper Functions
-The helper_functions.py script contains various helper functions used throughout the project, including:
-
-extract_date: Extracts the date from a timestamp.
-group_wind_speed: Groups wind speed data.
-group_temperature: Groups temperature data.
-group_precipitation: Groups precipitation data.
+The functions.py script contains all neccessary functions to transform data to desired structure.
 
 ### Main Script
 The main.py script orchestrates the entire data pipeline, calling the necessary functions and ensuring the smooth flow of data from ingestion to visualization.
 
-### PySpark Transformations
-The pyspark_transformations.py script contains PySpark transformations for data processing, including temperature and precipitation grouping. These transformations are executed on Google Cloud Dataproc.
-
 ### Scheduled Queries
-The `scheduled_queries` contains the scheduled queries used to transform data between the raw and curated layers and union all aggregation tables.
+The `scheduled_queries` folder contains the scheduled queries used to transform data between the raw and curated layers and union all aggregation tables.
 
 ## ✅ Setup and Execution
 
