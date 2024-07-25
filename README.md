@@ -65,7 +65,7 @@ The final step involves visualizing the data using Looker. The visualizations pr
 
 ## 📝 Scripts and Functions
 
-## Helper Functions
+## Aggregation Functions
 The functions.py script contains all neccessary functions to transform data to desired structure.
 
 ### Main Script
