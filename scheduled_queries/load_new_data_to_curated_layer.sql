@@ -46,5 +46,5 @@ SELECT
     CAST(Civil_Twilight AS STRING) AS Civil_Twilight,
     CAST(Nautical_Twilight AS STRING) AS Nautical_Twilight,
     CAST(Astronomical_Twilight AS STRING) AS Astronomical_Twilight
-FROM `accidents-429019.accidents.raw_data`
+FROM `PROJECT_ID.DATASET_ID.TABLE_ID`
 WHERE DATE(Start_Time) = CURRENT_DATE()
